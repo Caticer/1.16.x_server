@@ -1,0 +1,3 @@
+&6Hoşgeldin, {PLAYER}&6!
+&6Komutları görmek için &c/help&6 Yaz.
+&6Online Oyuncular:&c {ONLINE} &6- Dünya zamanı:&c {WORLDTIME12}
