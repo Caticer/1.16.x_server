@@ -14,11 +14,21 @@ groups:
     permissions:
     - essentials.kit
     - essentials.kits.baslangic
+    - essentials.kits.claim
     - essentials.itemspawn.meta-title
     - essentials.itemspawn.meta-lore
+    # Griefprevention
+    - griefprevention.createclaims
+    - griefprevention.claimslistother
+    - griefprevention.deleteclaims	
+    - griefprevention.claims
+    - griefprevention.seeclaimsize
+    - griefprevention.seeinactivity
+    - griefprevention.visualizenearbyclaims
+    - griefprevention.buysellclaimb­locks
 
     inheritance:
-    #- g:essentials_default # For default essentials perms
+    - g:essentials_default # For default essentials perms
     - g:groupmanager_default
     - g:bukkit_default
     - g:essentials_default
@@ -32,10 +42,20 @@ groups:
     default: false
     permissions:
     - essentials.kits.vip
+    - essentials.kits.claim
     - essentials.kit
     - essentials.kits.baslangic
     - essentials.itemspawn.meta-title
     - essentials.itemspawn.meta-lore
+    # Griefprevention
+    - griefprevention.createclaims
+    - griefprevention.deleteclaims	
+    - griefprevention.claimslistother
+    - griefprevention.claims
+    - griefprevention.seeclaimsize
+    - griefprevention.seeinactivity
+    - griefprevention.visualizenearbyclaims
+    - griefprevention.buysellclaimb­locks
 
     inheritance:
     - g:essentials_default # For default essentials perms
