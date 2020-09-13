@@ -1,0 +1,96 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1Ana Menü'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 3
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  commands:
+  - 'menu'
+  - 'ananmenu'
+  - 'menü'
+  - 'start'
+
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in icon descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-actions:
+  - 'tell: &eAna menüyü açtın'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    material: compass
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+
+kitler:
+  MATERIAL: STONE_PICKAXE
+  POSITION-X: 2
+  POSITION-Y: 2
+  NAME: '&eKitler'
+  LORE:
+    - 'Maceranda sana yardımcı olabilecek bazı araçlar'
+  ACTIONS:
+    - 'open: kitler.yml'
+
+
+warplar:
+  MATERIAL: GRASS_BLOCK
+  POSITION-X: 4
+  POSITION-Y: 2
+  NAME: '&eIşınlanma noktaları / Warplar'
+  LORE:
+    - 'Belirli bölgelere hızlıca ışınlanmak için kullanabileceğin bir menü'
+    - '(Gerçekten hızlı)'
+  ACTIONS:
+    - 'open: warplar.yml'
+
+
+
+Bilgi:
+  MATERIAL: Book
+  POSITION-X: 6
+  POSITION-Y: 2
+  NAME: '&eBilgi'
+  LORE:
+    - 'Aklına takılan soruların mı var?'
+    - 'Bilgi sayfasında neredeyse hepsinin cevabını bulabilirsin'
+    - 'Daha fazla bilgiye ihtiyacın olursa'
+    - 'Telegram grubumuza sorabilirsin'
+    - 'Detaylı bilgi için Hızlı Başlangıç kitabına göz at'
+  ACTIONS:
+    - 'open: info.yml'
+
+
+
+close-without-actions:
+  MATERIAL: redstone lamp
+  POSITION-X: 9
+  POSITION-Y: 3
+  NAME: '&6Menüyü kapat'

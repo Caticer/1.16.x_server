@@ -1,0 +1,98 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1Warplar'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  commands:
+  - 'warp'
+  - 'yerler'
+
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in icon descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-actions:
+  - 'tell: &eWarp menüsünü açtın'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    material: compass
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+
+orman:
+  MATERIAL: OAK_SAPLING
+  POSITION-X: 1
+  POSITION-Y: 1
+  NAME: '&eOrnama ışınlar'
+  LORE:
+    - 'Işık hızında ormana ışınlanmak için burayı tıkla'
+  ACTIONS:
+    - 'warp orman'
+
+
+spawn:
+  MATERIAL: EnderPearl
+  POSITION-X: 3
+  POSITION-Y: 1
+  NAME: '&eSpawna ışınlar'
+  LORE:
+    - 'Hadi seni başlangıç noktasına götürelim'
+  ACTIONS:
+    - 'spawn'
+
+
+
+kitclaim:
+  MATERIAL: DIAMOND_SWORD
+  POSITION-X: 5
+  POSITION-Y: 1
+  NAME: '&eArenaya ışınlan'
+  LORE:
+    - 'Hmm. demek savaşmak istyorsun. durma! tıkla'
+    - 'Arenaya girerek arena kurallarını kabul etmiş sayılırsın'
+    - 'Arena kuralları hakkında bilgi için /kurallar'
+
+  ACTIONS:
+    - 'warp arena'
+
+meain:
+  MATERIAL: MINECART
+  POSITION-X: 8
+  POSITION-Y: 1
+  NAME: '&6Ana menüye dön'
+  ACTIONS:
+    - 'open: anamenu.yml'
+
+close-without-actions:
+  MATERIAL: redstone lamp
+  POSITION-X: 9
+  POSITION-Y: 1
+  NAME: '&6Warp menüsünü kapat'

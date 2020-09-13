@@ -23,7 +23,7 @@
 
 # If true, players can change skins without permission.
 # see https://github.com/SkinsRestorer/SkinsRestorerX/wiki/cmds-&-perms for perms.
-SkinWithoutPerm: true
+SkinWithoutPerm: false
 
 # Players cooldown when changing skins (set to 0 to disable)
 # SkinErrorCooldown when a error or invalid url occurs.

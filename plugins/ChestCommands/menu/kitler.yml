@@ -1,0 +1,102 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1Kitler'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  commands:
+  - 'kit'
+  - 'kitler'
+  - 'kits'
+
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in icon descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-actions:
+  - 'tell: &eKit menüsünü açtın'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    material: compass
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+
+kitstarter:
+  MATERIAL: STONE_PICKAXE
+  POSITION-X: 1
+  POSITION-Y: 1
+  NAME: '&eBaşlangıç Kiti'
+  LORE:
+    - '6 saatte bir alabileceğin temel aletler'
+  ACTIONS:
+    - 'kit baslangic'
+
+
+kitvip:
+  MATERIAL: DIAMOND_PICKAXE
+  POSITION-X: 2
+  POSITION-Y: 1
+  NAME: '&eVIP Kiti'
+  PERMISSION-MESSAGE: 'Sadece VIP kullanıcıları bu kiti alabilir'
+  LORE:
+    - '24 saatte bir alabileceğin gelişmiş aletler'
+    - 'Sadece VIP Üyeler alabilir'
+  ACTIONS:
+    - 'kit vip'
+
+
+
+kitclaim:
+  MATERIAL: GOLDEN_SHOVEL
+  POSITION-X: 3
+  POSITION-Y: 1
+  NAME: '&eClaim Kiti'
+  LORE:
+    - 'Arazini korumak için Claim atman gerekir'
+    - 'Claim atmak için altın kürke ile'
+    - 'Claimlemek istediğin arazinin'
+    - 'İki köşesine sağ tık yapman yeterli'
+    - 'Detaylı bilgi için Hızlı Başlangıç kitabına göz at'
+  ACTIONS:
+    - 'kit claim'
+
+meain:
+  MATERIAL: MINECART
+  POSITION-X: 8
+  POSITION-Y: 1
+  NAME: '&6Ana menüye dön'
+  ACTIONS:
+    - 'open: anamenu.yml'
+
+close-without-actions:
+  MATERIAL: redstone lamp
+  POSITION-X: 9
+  POSITION-Y: 1
+  NAME: '&6Kit menüsünü kapat'
