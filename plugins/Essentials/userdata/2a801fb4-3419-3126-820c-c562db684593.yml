@@ -1,7 +1,7 @@
 lastAccountName: TheDoopTR
 timestamps:
-  login: 1599982943642
-  logout: 1599982954182
+  login: 1599985016368
+  logout: 1599985158372
   kits:
     baslangic: 1599767817698
     dtools: 1599766601952
@@ -10,11 +10,11 @@ timestamps:
 ipAddress: 127.0.0.1
 lastlocation:
   world: world
-  x: 9.5
-  y: 71.0
-  z: -207.5
-  yaw: 4.240124
-  pitch: 0.0
+  x: 16.0
+  y: 72.0
+  z: -208.0
+  yaw: 224.70003
+  pitch: 15.749998
 logoutlocation:
   world: world
   x: 16.19846917261119

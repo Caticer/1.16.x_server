@@ -31,7 +31,7 @@
 # ==== General Options ====
 
 language: english
-# Which language to use. Currently english and german are included in the download, but custom languages can be created as well.
+# Which language to use. Currently english, german and korean are included in the download, but custom languages can be created as well.
 # Please note that not everything can be translated yet, i.e. parts of Skript will still be english if you use another language.
 # If you want to translate Skript to your language please read the readme.txt located in the /lang/ folder in the jar
 # (open the jar as zip or rename it to Skript.zip to access it)
@@ -50,11 +50,11 @@ update check interval: 12 hours
 # Please note that this option is currently the only means of making Skript check for an update more than once,
 # as '/skript update check' does only display the results of the last check if a check has been made before.
 
-release channel: stable
+release channel: beta
 # If 'check for new version' is enabled, this determines how stable the updates must be.
 # 'stable' means that only stable releases of Skript will be considered updates.
 # 'beta' and 'alpha' mean that also development releases will be checked for.
-# Initial value of this depends on the Skript version you first installed; it was 'stable'.
+# Initial value of this depends on the Skript version you first installed; it was 'beta'.
 
 enable effect commands: false
 effect command token: !
@@ -299,7 +299,7 @@ databases:
 		
 		# ==== Settings that should not be changed ====
 		
-version: 2.4.1
+version: 2.5-beta3
 # DO NOT CHANGE THIS VALUE MANUALLY!
 # This saves for which version of Skript this configuration was written for.
 # If it does not match the version of the .jar file then the config will be updated automatically.

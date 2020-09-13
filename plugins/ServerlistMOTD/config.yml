@@ -13,7 +13,7 @@
 # ----------------------------------------- [ Configuration File ]  ------------------------------------------ #
 
 ClassicMotd:
-  Regulars: '&2Tekrar hosgeldin, &e%player%&2! %line%&aHava %weather% %time%.'
+  Regulars: '&2Tekrar hoşgeldin, &e%player%&2! %line%&aHava %weather% %time%.'
   Newbies: '&2Hoşgeldin oyuncu %line%&aHava %weather% %time%.'
 RandomMotd:
   Enable: false
@@ -60,8 +60,8 @@ Slots:
       Max: 100
       Min: 90
   VersionText:
-    Enable: true
-    Message: '&aSimdi Katil!  &e%realonline%/%realslots%'
+    Enable: false
+    Message: '&aŞimdi Katıl!  &e%realonline%/%realslots%'
   OutdatedClientText:
     Enable: false
     Message: Minecraft 1.16.2 kullanın &r&7%realonline%&8/&7%realslots%
@@ -79,20 +79,19 @@ Slots:
     AddSlotsWhenOnline>MinSlots: 1
     MultiplyBy: 5
   HoverText:
-    Enable: false
+    Enable: true
     Messages:
     - '&7>>>>>>> &6FServer &7<<<<<<<'
-    - ' &e-> This is a TEST!'
-    - ' &e-> Strumswell loves you. &c&l<3'
-    - '&eAdd lines by adding bullet points!'
+    - ' &e-> 1.16.2 Suvival sunucu'
+    - ' &e-> Sende aramıza katıl. &c&l<3'
 Variables:
   TimeVariable:
     NightText: gece
-    DayText: gunduz
+    DayText: gündüz
     World: world
   WeatherVariable:
-    RainText: yagmurlu
-    SunText: acik
+    RainText: yağmurlu
+    SunText: açık
     World: world
   RandomNumberVariable:
     Max: 100
