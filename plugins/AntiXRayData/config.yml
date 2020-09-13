@@ -9,8 +9,6 @@ AntiXRay:
   DefaultMaxHeight: 63
   Worlds:
     world: ''
-    world_nether:
-      DefaultMaxHeight: 256
     world_the_end:
       DefaultMaxHeight: 256
   ProtectedBlockValues:

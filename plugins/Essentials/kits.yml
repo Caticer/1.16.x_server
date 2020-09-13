@@ -25,4 +25,10 @@ kits:
       - dpickaxe 1 efficiency:2 durability:3 fortune:1 lore:VIP_Esyasi
       - dshovel 1 digspeed:2 durability:3 lore:VIP_Esyasi
       - daxe 1 durability:3 lore:VIP_Esyasi
-      - dsword durability:3 lore:VIP_Esyasi
+      - dsword 1 lore:VIP_Esyasi
+  
+  claim:
+    delay: 1
+    items:
+      - 284 1
+      - 280 1
