@@ -1,160 +1,811 @@
-[22:23:15] [main/ERROR]: No key layers in MapLike[{}]; No key structures in MapLike[{}]; Not a registry ops
-[22:23:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[22:23:17] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[22:23:18] [Worker-Main-6/INFO]: Loaded 7 recipes
-[22:23:22] [Server thread/INFO]: Starting minecraft server version 1.16.2
-[22:23:22] [Server thread/INFO]: Loading properties
-[22:23:22] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-b5a13e6-b8ee6a8 (MC: 1.16.2) (Implementing API version 1.16.2-R0.1-SNAPSHOT)
-[22:23:22] [Server thread/INFO]: Debug logging is disabled
-[22:23:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:23:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:23:22] [Server thread/INFO]: Default game type: SURVIVAL
-[22:23:22] [Server thread/INFO]: Generating keypair
-[22:23:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:23:23] [Server thread/INFO]: Using default channel type
-[22:23:30] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[22:23:38] [Server thread/WARN]: Legacy plugin LoginSecurity v3.0.2 does not specify an api-version.
-[22:23:38] [Server thread/INFO]: [AntiXRay] Loading AntiXRay v1.9.0
-[22:23:38] [Server thread/INFO]: [WitherAC] Loading WitherAC v0.21.2
-[22:23:38] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.0.8
-[22:23:38] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.18.0.8
-[22:23:38] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.14.0
-[22:23:38] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.0.2
-[22:23:38] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.7 (Phoenix)
-[22:23:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:23:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:23:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:23:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:23:38] [Server thread/INFO]: Preparing level "world"
-[22:23:38] [Server thread/INFO]: -------- World Settings For [world] --------
-[22:23:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:23:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:23:38] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:23:38] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:23:38] [Server thread/INFO]: View Distance: 10
-[22:23:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:23:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[22:23:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:23:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[22:23:38] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:23:38] [Server thread/INFO]: Mob Spawn Range: 6
-[22:23:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Potato Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Vine Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[22:23:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[22:23:38] [Server thread/INFO]: Max TNT Explosions: 100
-[22:23:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:23:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[22:23:39] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[22:23:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:23:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:23:39] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:23:39] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:23:39] [Server thread/INFO]: View Distance: 10
-[22:23:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:23:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[22:23:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:23:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[22:23:39] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:23:39] [Server thread/INFO]: Mob Spawn Range: 6
-[22:23:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Potato Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Vine Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[22:23:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[22:23:39] [Server thread/INFO]: Max TNT Explosions: 100
-[22:23:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:23:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[22:23:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:23:41] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:41] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:41] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:41] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:41] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:42] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[22:23:42] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:42] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:43] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[22:23:43] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[22:23:44] [Worker-Main-7/INFO]: Preparing spawn area: 83%
-[22:23:44] [Worker-Main-7/INFO]: Preparing spawn area: 83%
-[22:23:45] [Worker-Main-9/INFO]: Preparing spawn area: 84%
-[22:23:46] [Server thread/INFO]: Preparing spawn area: 84%
-[22:23:46] [Server thread/INFO]: Preparing spawn area: 84%
-[22:23:46] [Server thread/INFO]: Preparing spawn area: 94%
-[22:23:47] [Server thread/INFO]: Time elapsed: 7818 ms
-[22:23:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:23:49] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:49] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:49] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:49] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:49] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:49] [Server thread/INFO]: Preparing spawn area: 0%
-[22:23:50] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[22:23:50] [Worker-Main-8/INFO]: Preparing spawn area: 83%
-[22:23:51] [Worker-Main-7/INFO]: Preparing spawn area: 83%
-[22:23:51] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[22:23:51] [Server thread/INFO]: Time elapsed: 4675 ms
-[22:23:51] [Server thread/INFO]: [AntiXRay] Enabling AntiXRay v1.9.0
-[22:23:51] [Server thread/WARN]: [AntiXRay] Configuration: There's no world named "world_nether".  Make sure that the worldnames in your config.yml are correct!
-[22:23:52] [Server thread/INFO]: [WitherAC] Enabling WitherAC v0.21.2
-[22:23:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.0.8
-[22:23:52] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[22:23:53] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[22:23:53] [Server thread/INFO]: No kits found to migrate.
-[22:23:54] [Server thread/INFO]: Loaded 25515 items from items.json.
-[22:23:54] [Server thread/INFO]: Using locale tr_TR
-[22:23:54] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[22:23:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[22:23:54] [Server thread/WARN]: [Essentials] Detected supported permissions plugin GroupManager without Vault installed.
-[22:23:54] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[22:23:54] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[22:23:54] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.0.8
-[22:23:54] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[22:23:54] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.14.0
-[22:23:54] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[22:23:54] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
-[22:23:55] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[22:23:55] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[22:23:55] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[22:23:55] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.0.2
-[22:23:55] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[22:23:55] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[22:23:56] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[22:23:56] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[22:23:56] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[22:23:56] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.7 (Phoenix)
-[22:23:56] [Server thread/INFO]: [GroupManager] World Found: world
-[22:23:56] [Server thread/INFO]: [GroupManager] Superperms support enabled.
-[22:23:56] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
-[22:23:56] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
-[22:23:56] [Server thread/INFO]: [GroupManager] version 2.7 (Phoenix) is enabled!
-[22:23:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:23:57] [Server thread/INFO]: Done (19.500s)! For help, type "help"
-[22:23:57] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
-[22:23:58] [Craft Scheduler Thread - 6/INFO]: [GroupManager] No new version available
+[10:40:12] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[10:40:14] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[10:40:15] [Worker-Main-4/INFO]: Loaded 7 recipes
+[10:40:19] [Server thread/INFO]: Starting minecraft server version 1.16.2
+[10:40:19] [Server thread/INFO]: Loading properties
+[10:40:19] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-b5a13e6-b8ee6a8 (MC: 1.16.2) (Implementing API version 1.16.2-R0.1-SNAPSHOT)
+[10:40:20] [Server thread/INFO]: Debug logging is disabled
+[10:40:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:40:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:40:20] [Server thread/INFO]: Default game type: SURVIVAL
+[10:40:20] [Server thread/INFO]: Generating keypair
+[10:40:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:40:20] [Server thread/INFO]: Using default channel type
+[10:40:26] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[10:40:33] [Server thread/WARN]: Legacy plugin ActionHealth v3.5.1 does not specify an api-version.
+[10:40:34] [Server thread/WARN]: Legacy plugin LoginSecurity v3.0.2 does not specify an api-version.
+[10:40:34] [Server thread/WARN]: Legacy plugin ServerlistMOTD vX-2020-09-05 does not specify an api-version.
+[10:40:34] [Server thread/INFO]: [AntiXRay] Loading AntiXRay v1.9.0
+[10:40:34] [Server thread/INFO]: [Skript] Loading Skript v2.4.1
+[10:40:34] [Server thread/INFO]: [WitherAC] Loading WitherAC v0.21.2
+[10:40:34] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.0.8
+[10:40:34] [Server thread/INFO]: [ActionHealth] Loading ActionHealth v3.5.1
+[10:40:34] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.18.0.8
+[10:40:34] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.14.0
+[10:40:34] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.0.2
+[10:40:34] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.8 (Phoenix)
+[10:40:34] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.6.0-SNAPSHOT-b478
+[10:40:34] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.16.2) has not yet been tested! Proceed with caution.
+[10:40:35] [Server thread/INFO]: [ServerlistMOTD] Loading ServerlistMOTD vX-2020-09-05
+[10:40:35] [Server thread/INFO]: [SkQuery] Loading SkQuery v4.1.3
+[10:40:35] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.6.0-SNAPSHOT-b478
+[10:40:35] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[10:40:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:40:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:40:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:40:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:40:35] [Server thread/INFO]: Preparing level "world"
+[10:40:35] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:40:35] [Server thread/INFO]: Mob Spawn Range: 6
+[10:40:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:40:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:40:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:40:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:40:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:40:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:40:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:40:36] [Server thread/INFO]: Max TNT Explosions: 100
+[10:40:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:40:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:40:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:40:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:40:36] [Server thread/INFO]: View Distance: 10
+[10:40:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:40:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:40:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:40:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:40:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:40:36] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:40:36] [Server thread/INFO]: Mob Spawn Range: 6
+[10:40:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:40:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:40:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:40:36] [Server thread/INFO]: Max TNT Explosions: 100
+[10:40:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:40:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:40:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:40:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:40:36] [Server thread/INFO]: View Distance: 10
+[10:40:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:40:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:40:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:40:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:40:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:40:36] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:40:36] [Server thread/INFO]: Mob Spawn Range: 6
+[10:40:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:40:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:40:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:40:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:40:36] [Server thread/INFO]: Max TNT Explosions: 100
+[10:40:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:40:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:40:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:40:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:40:36] [Server thread/INFO]: View Distance: 10
+[10:40:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:40:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:40:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:40:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:40:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:40:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:40:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:41] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:41] [Server thread/INFO]: Preparing spawn area: 24%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:48] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:49] [Worker-Main-9/INFO]: Preparing spawn area: 91%
+[10:40:49] [Worker-Main-9/INFO]: Preparing spawn area: 91%
+[10:40:50] [Worker-Main-9/INFO]: Preparing spawn area: 91%
+[10:40:50] [Worker-Main-8/INFO]: Preparing spawn area: 91%
+[10:40:51] [Worker-Main-8/INFO]: Preparing spawn area: 91%
+[10:40:51] [Worker-Main-9/INFO]: Preparing spawn area: 91%
+[10:40:52] [Worker-Main-9/INFO]: Preparing spawn area: 91%
+[10:40:52] [Worker-Main-9/INFO]: Preparing spawn area: 92%
+[10:40:53] [Worker-Main-7/INFO]: Preparing spawn area: 93%
+[10:40:53] [Worker-Main-7/INFO]: Preparing spawn area: 93%
+[10:40:54] [Worker-Main-8/INFO]: Preparing spawn area: 95%
+[10:40:54] [Worker-Main-8/INFO]: Preparing spawn area: 98%
+[10:40:55] [Server thread/INFO]: Time elapsed: 18218 ms
+[10:40:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:40:58] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:58] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:58] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:58] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:58] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:58] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:58] [Server thread/INFO]: Preparing spawn area: 0%
+[10:40:58] [Server thread/INFO]: Preparing spawn area: 2%
+[10:40:59] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:40:59] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[10:41:00] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[10:41:00] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[10:41:01] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:41:01] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[10:41:02] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[10:41:02] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:41:03] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:41:03] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[10:41:04] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[10:41:04] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[10:41:05] [Server thread/INFO]: Preparing spawn area: 84%
+[10:41:05] [Worker-Main-8/INFO]: Preparing spawn area: 87%
+[10:41:06] [Server thread/INFO]: Preparing spawn area: 88%
+[10:41:06] [Worker-Main-7/INFO]: Preparing spawn area: 94%
+[10:41:07] [Worker-Main-9/INFO]: Preparing spawn area: 98%
+[10:41:07] [Server thread/INFO]: Time elapsed: 12156 ms
+[10:41:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:41:08] [Server thread/INFO]: Preparing spawn area: 0%
+[10:41:08] [Server thread/INFO]: Preparing spawn area: 0%
+[10:41:08] [Server thread/INFO]: Preparing spawn area: 0%
+[10:41:08] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:41:09] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[10:41:09] [Worker-Main-7/INFO]: Preparing spawn area: 90%
+[10:41:09] [Server thread/INFO]: Time elapsed: 2651 ms
+[10:41:09] [Server thread/INFO]: [AntiXRay] Enabling AntiXRay v1.9.0
+[10:41:10] [Server thread/INFO]: [Skript] Enabling Skript v2.4.1
+[10:41:17] [ForkJoinPool.commonPool-worker-1/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m You're currently running the latest stable version of Skript.[m
+[10:41:23] [Server thread/ERROR]: [Skript] Minecraft id minecraft:zombie_pigman_spawn_egg is not valid (misc.sk, line 302: (zombie pig[man] [spawn] egg|spawn zombie pig[man])¦s = minecraft:zombie_pigman_spawn_egg')
+[10:41:23] [Server thread/ERROR]: [Skript] Minecraft id minecraft:zombie_pigman_spawn_egg is not valid (misc.sk, line 302: (zombie pig[man] [spawn] egg|spawn zombie pig[man])¦s = minecraft:zombie_pigman_spawn_egg')
+[10:41:23] [Server thread/ERROR]: [Skript] Minecraft id minecraft:zombie_pigman_spawn_egg is not valid (misc.sk, line 302: (zombie pig[man] [spawn] egg|spawn zombie pig[man])¦s = minecraft:zombie_pigman_spawn_egg')
+[10:41:23] [Server thread/ERROR]: [Skript] Minecraft id minecraft:zombie_pigman_spawn_egg is not valid (misc.sk, line 302: (zombie pig[man] [spawn] egg|spawn zombie pig[man])¦s = minecraft:zombie_pigman_spawn_egg')
+[10:41:23] [Server thread/ERROR]: [Skript] Minecraft id minecraft:zombie_pigman_spawn_egg is not valid (misc.sk, line 302: (zombie pig[man] [spawn] egg|spawn zombie pig[man])¦s = minecraft:zombie_pigman_spawn_egg')
+[10:41:23] [Server thread/ERROR]: [Skript] Minecraft id minecraft:zombie_pigman_spawn_egg is not valid (misc.sk, line 302: (zombie pig[man] [spawn] egg|spawn zombie pig[man])¦s = minecraft:zombie_pigman_spawn_egg')
+[10:41:23] [Server thread/ERROR]: [Skript] Minecraft id spawn zombie pigman is not valid (misc.sk, line 304: [any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cod, spawn cow, spawn creeper, spawn dolphin, spawn donkey, spawn drowned, spawn elder guardian, spawn enderman, spawn endermite, spawn evoker, spawn ghast, spawn guardian, spawn horse, spawn husk, spawn llama, spawn magma cube, spawn mooshroom, spawn mule, spawn ocelot, spawn parrot, spawn phantom, spawn pig, spawn polar bear, spawn pufferfish, spawn rabbit, spawn salmon, spawn sheep, spawn shulker, spawn silverfish, spawn skeleton, spawn skeleton horse, spawn slime, spawn spider, spawn squid, spawn stray, spawn tropical fish, spawn turtle, spawn vex, spawn villager, spawn vindicator, spawn witch, spawn wither skeleton, spawn wolf, spawn zombie, spawn zombie horse, spawn zombie pigman, spawn zombie villager')
+[10:41:23] [Server thread/ERROR]: [Skript] Minecraft id spawn zombie pigman is not valid (misc.sk, line 304: [any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cod, spawn cow, spawn creeper, spawn dolphin, spawn donkey, spawn drowned, spawn elder guardian, spawn enderman, spawn endermite, spawn evoker, spawn ghast, spawn guardian, spawn horse, spawn husk, spawn llama, spawn magma cube, spawn mooshroom, spawn mule, spawn ocelot, spawn parrot, spawn phantom, spawn pig, spawn polar bear, spawn pufferfish, spawn rabbit, spawn salmon, spawn sheep, spawn shulker, spawn silverfish, spawn skeleton, spawn skeleton horse, spawn slime, spawn spider, spawn squid, spawn stray, spawn tropical fish, spawn turtle, spawn vex, spawn villager, spawn vindicator, spawn witch, spawn wither skeleton, spawn wolf, spawn zombie, spawn zombie horse, spawn zombie pigman, spawn zombie villager')
+[10:41:23] [Server thread/ERROR]: [Skript] Minecraft id spawn zombie pigman is not valid (misc.sk, line 315: [any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cod, spawn cow, spawn creeper, spawn dolphin, spawn donkey, spawn drowned, spawn elder guardian, spawn enderman, spawn endermite, spawn evoker, spawn ghast, spawn guardian, spawn horse, spawn husk, spawn llama, spawn magma cube, spawn mooshroom, spawn mule, spawn ocelot, spawn parrot, spawn phantom, spawn pig, spawn polar bear, spawn pufferfish, spawn rabbit, spawn salmon, spawn sheep, spawn shulker, spawn silverfish, spawn skeleton, spawn skeleton horse, spawn slime, spawn spider, spawn squid, spawn stray, spawn tropical fish, spawn turtle, spawn vex, spawn villager, spawn vindicator, spawn witch, spawn wither skeleton, spawn wolf, spawn zombie, spawn zombie horse, spawn zombie pigman, spawn zombie villager, spawn pillager, spawn ravager, spawn wandering trader, spawn trader llama, spawn cat, spawn fox, spawn panda')
+[10:41:23] [Server thread/ERROR]: [Skript] Minecraft id spawn zombie pigman is not valid (misc.sk, line 315: [any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cod, spawn cow, spawn creeper, spawn dolphin, spawn donkey, spawn drowned, spawn elder guardian, spawn enderman, spawn endermite, spawn evoker, spawn ghast, spawn guardian, spawn horse, spawn husk, spawn llama, spawn magma cube, spawn mooshroom, spawn mule, spawn ocelot, spawn parrot, spawn phantom, spawn pig, spawn polar bear, spawn pufferfish, spawn rabbit, spawn salmon, spawn sheep, spawn shulker, spawn silverfish, spawn skeleton, spawn skeleton horse, spawn slime, spawn spider, spawn squid, spawn stray, spawn tropical fish, spawn turtle, spawn vex, spawn villager, spawn vindicator, spawn witch, spawn wither skeleton, spawn wolf, spawn zombie, spawn zombie horse, spawn zombie pigman, spawn zombie villager, spawn pillager, spawn ravager, spawn wandering trader, spawn trader llama, spawn cat, spawn fox, spawn panda')
+[10:41:23] [Server thread/ERROR]: [Skript] Minecraft id spawn zombie pigman is not valid (misc.sk, line 320: [any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cod, spawn cow, spawn creeper, spawn dolphin, spawn donkey, spawn drowned, spawn elder guardian, spawn enderman, spawn endermite, spawn evoker, spawn ghast, spawn guardian, spawn horse, spawn husk, spawn llama, spawn magma cube, spawn mooshroom, spawn mule, spawn ocelot, spawn parrot, spawn phantom, spawn pig, spawn polar bear, spawn pufferfish, spawn rabbit, spawn salmon, spawn sheep, spawn shulker, spawn silverfish, spawn skeleton, spawn skeleton horse, spawn slime, spawn spider, spawn squid, spawn stray, spawn tropical fish, spawn turtle, spawn vex, spawn villager, spawn vindicator, spawn witch, spawn wither skeleton, spawn wolf, spawn zombie, spawn zombie horse, spawn zombie pigman, spawn zombie villager, spawn pillager, spawn ravager, spawn wandering trader, spawn trader llama, spawn cat, spawn fox, spawn panda, spawn bee')
+[10:41:23] [Server thread/ERROR]: [Skript] Minecraft id spawn zombie pigman is not valid (misc.sk, line 320: [any] spawn egg¦s = spawn bat, spawn blaze, spawn cave spider, spawn chicken, spawn cod, spawn cow, spawn creeper, spawn dolphin, spawn donkey, spawn drowned, spawn elder guardian, spawn enderman, spawn endermite, spawn evoker, spawn ghast, spawn guardian, spawn horse, spawn husk, spawn llama, spawn magma cube, spawn mooshroom, spawn mule, spawn ocelot, spawn parrot, spawn phantom, spawn pig, spawn polar bear, spawn pufferfish, spawn rabbit, spawn salmon, spawn sheep, spawn shulker, spawn silverfish, spawn skeleton, spawn skeleton horse, spawn slime, spawn spider, spawn squid, spawn stray, spawn tropical fish, spawn turtle, spawn vex, spawn villager, spawn vindicator, spawn witch, spawn wither skeleton, spawn wolf, spawn zombie, spawn zombie horse, spawn zombie pigman, spawn zombie villager, spawn pillager, spawn ravager, spawn wandering trader, spawn trader llama, spawn cat, spawn fox, spawn panda, spawn bee')
+[10:41:23] [Server thread/ERROR]: [Skript] Parsing block state [facing=down] failed! (other.sk, line 79: {orientable} jigsaw block¦s = minecraft:jigsaw')
+[10:41:23] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:jigsaw[facing=down]
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.block.data.CraftBlockData.newData(CraftBlockData.java:545)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.createBlockData(CraftServer.java:1976)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1489)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:355)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:278)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:705)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:605)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:123)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:504)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:490)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:473)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.ArrayList.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.SortedOps$RefSortingSink.end(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:466)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:432)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:404)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.Skript.onEnable(Skript.java:402)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[10:41:23] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:41:23] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:jigsaw does not have property 'facing' at position 17: ...ft:jigsaw[<--[HERE]
+[10:41:23] [Server thread/ERROR]: [Skript] Parsing block state [facing=down] failed! (other.sk, line 79: {orientable} jigsaw block¦s = minecraft:jigsaw')
+[10:41:23] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:jigsaw[facing=down]
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.block.data.CraftBlockData.newData(CraftBlockData.java:545)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.createBlockData(CraftServer.java:1976)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1489)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:355)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:278)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:705)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:605)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:123)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:504)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:490)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:473)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.ArrayList.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.SortedOps$RefSortingSink.end(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:466)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:432)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:404)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.Skript.onEnable(Skript.java:402)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[10:41:23] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:41:23] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:jigsaw does not have property 'facing' at position 17: ...ft:jigsaw[<--[HERE]
+[10:41:23] [Server thread/ERROR]: [Skript] Parsing block state [facing=up] failed! (other.sk, line 79: {orientable} jigsaw block¦s = minecraft:jigsaw')
+[10:41:23] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:jigsaw[facing=up]
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.block.data.CraftBlockData.newData(CraftBlockData.java:545)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.createBlockData(CraftServer.java:1976)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1489)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:355)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:278)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:705)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:605)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:123)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:504)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:490)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:473)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.ArrayList.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.SortedOps$RefSortingSink.end(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:466)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:432)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:404)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.Skript.onEnable(Skript.java:402)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[10:41:23] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:41:23] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:jigsaw does not have property 'facing' at position 17: ...ft:jigsaw[<--[HERE]
+[10:41:23] [Server thread/ERROR]: [Skript] Parsing block state [facing=up] failed! (other.sk, line 79: {orientable} jigsaw block¦s = minecraft:jigsaw')
+[10:41:23] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:jigsaw[facing=up]
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.block.data.CraftBlockData.newData(CraftBlockData.java:545)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.createBlockData(CraftServer.java:1976)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1489)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:355)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:278)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:705)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:605)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:123)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:504)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:490)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:473)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.ArrayList.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.SortedOps$RefSortingSink.end(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:466)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:432)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:404)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.Skript.onEnable(Skript.java:402)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[10:41:23] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:41:23] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:jigsaw does not have property 'facing' at position 17: ...ft:jigsaw[<--[HERE]
+[10:41:23] [Server thread/ERROR]: [Skript] Parsing block state [facing=north] failed! (other.sk, line 79: {orientable} jigsaw block¦s = minecraft:jigsaw')
+[10:41:23] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:jigsaw[facing=north]
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.block.data.CraftBlockData.newData(CraftBlockData.java:545)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.createBlockData(CraftServer.java:1976)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1489)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:355)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:278)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:705)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:605)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:123)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:504)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:490)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:473)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.ArrayList.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.SortedOps$RefSortingSink.end(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:466)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:432)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:404)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.Skript.onEnable(Skript.java:402)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[10:41:23] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:41:23] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:jigsaw does not have property 'facing' at position 17: ...ft:jigsaw[<--[HERE]
+[10:41:23] [Server thread/ERROR]: [Skript] Parsing block state [facing=north] failed! (other.sk, line 79: {orientable} jigsaw block¦s = minecraft:jigsaw')
+[10:41:23] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:jigsaw[facing=north]
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.block.data.CraftBlockData.newData(CraftBlockData.java:545)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.createBlockData(CraftServer.java:1976)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1489)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:355)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:278)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:705)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:605)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:123)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:504)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:490)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:473)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.ArrayList.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.SortedOps$RefSortingSink.end(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:466)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:432)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:404)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.Skript.onEnable(Skript.java:402)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[10:41:23] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:41:23] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:jigsaw does not have property 'facing' at position 17: ...ft:jigsaw[<--[HERE]
+[10:41:23] [Server thread/ERROR]: [Skript] Parsing block state [facing=south] failed! (other.sk, line 79: {orientable} jigsaw block¦s = minecraft:jigsaw')
+[10:41:23] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:jigsaw[facing=south]
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.block.data.CraftBlockData.newData(CraftBlockData.java:545)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.createBlockData(CraftServer.java:1976)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1489)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:355)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:278)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:705)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:605)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:123)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:504)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:490)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:473)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.ArrayList.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.SortedOps$RefSortingSink.end(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:466)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:432)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:404)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.Skript.onEnable(Skript.java:402)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[10:41:23] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:41:23] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:jigsaw does not have property 'facing' at position 17: ...ft:jigsaw[<--[HERE]
+[10:41:23] [Server thread/ERROR]: [Skript] Parsing block state [facing=south] failed! (other.sk, line 79: {orientable} jigsaw block¦s = minecraft:jigsaw')
+[10:41:23] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:jigsaw[facing=south]
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.block.data.CraftBlockData.newData(CraftBlockData.java:545)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.createBlockData(CraftServer.java:1976)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1489)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:355)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:278)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:705)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:605)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:123)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:504)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:490)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:473)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.ArrayList.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.SortedOps$RefSortingSink.end(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:466)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:432)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:404)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.Skript.onEnable(Skript.java:402)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[10:41:23] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:41:23] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:jigsaw does not have property 'facing' at position 17: ...ft:jigsaw[<--[HERE]
+[10:41:23] [Server thread/ERROR]: [Skript] Parsing block state [facing=west] failed! (other.sk, line 79: {orientable} jigsaw block¦s = minecraft:jigsaw')
+[10:41:23] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:jigsaw[facing=west]
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.block.data.CraftBlockData.newData(CraftBlockData.java:545)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.createBlockData(CraftServer.java:1976)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1489)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:355)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:278)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:705)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:605)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:123)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:504)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:490)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:473)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.ArrayList.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.SortedOps$RefSortingSink.end(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:466)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:432)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:404)
+[10:41:23] [Server thread/WARN]: 	at ch.njol.skript.Skript.onEnable(Skript.java:402)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492)
+[10:41:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808)
+[10:41:23] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[10:41:24] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:41:24] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:jigsaw does not have property 'facing' at position 17: ...ft:jigsaw[<--[HERE]
+[10:41:24] [Server thread/ERROR]: [Skript] Parsing block state [facing=west] failed! (other.sk, line 79: {orientable} jigsaw block¦s = minecraft:jigsaw')
+[10:41:24] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:jigsaw[facing=west]
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.block.data.CraftBlockData.newData(CraftBlockData.java:545)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.createBlockData(CraftServer.java:1976)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1489)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:355)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:278)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:705)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:605)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:123)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:504)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:490)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:473)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.ArrayList.forEach(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.SortedOps$RefSortingSink.end(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:466)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:432)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:404)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.Skript.onEnable(Skript.java:402)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406)
+[10:41:24] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435)
+[10:41:24] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219)
+[10:41:24] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808)
+[10:41:24] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[10:41:24] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:41:24] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:jigsaw does not have property 'facing' at position 17: ...ft:jigsaw[<--[HERE]
+[10:41:24] [Server thread/ERROR]: [Skript] Parsing block state [facing=east] failed! (other.sk, line 79: {orientable} jigsaw block¦s = minecraft:jigsaw')
+[10:41:24] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:jigsaw[facing=east]
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.block.data.CraftBlockData.newData(CraftBlockData.java:545)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.createBlockData(CraftServer.java:1976)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1489)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:355)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:278)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:705)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:605)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:123)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:504)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:490)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:473)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.ArrayList.forEach(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.SortedOps$RefSortingSink.end(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:466)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:432)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:404)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.Skript.onEnable(Skript.java:402)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406)
+[10:41:24] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435)
+[10:41:24] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219)
+[10:41:24] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808)
+[10:41:24] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[10:41:24] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:41:24] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:jigsaw does not have property 'facing' at position 17: ...ft:jigsaw[<--[HERE]
+[10:41:24] [Server thread/ERROR]: [Skript] Parsing block state [facing=east] failed! (other.sk, line 79: {orientable} jigsaw block¦s = minecraft:jigsaw')
+[10:41:24] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:jigsaw[facing=east]
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.block.data.CraftBlockData.newData(CraftBlockData.java:545)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.createBlockData(CraftServer.java:1976)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1489)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:355)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:278)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:705)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:605)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:123)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:504)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:490)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:473)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.ArrayList.forEach(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.SortedOps$RefSortingSink.end(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:466)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:432)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.aliases.Aliases.load(Aliases.java:404)
+[10:41:24] [Server thread/WARN]: 	at ch.njol.skript.Skript.onEnable(Skript.java:402)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492)
+[10:41:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406)
+[10:41:24] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435)
+[10:41:24] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219)
+[10:41:24] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808)
+[10:41:24] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[10:41:24] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:41:24] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:jigsaw does not have property 'facing' at position 17: ...ft:jigsaw[<--[HERE]
+[10:41:31] [Server thread/INFO]: [Skript] Loaded 114740 aliases in 19584ms
+[10:41:33] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[10:41:33] [Server thread/INFO]: [WitherAC] Enabling WitherAC v0.21.2
+[10:41:33] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.0.8
+[10:41:33] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[10:41:34] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[10:41:34] [Server thread/INFO]: No kits found to migrate.
+[10:41:34] [Server thread/INFO]: Loaded 25515 items from items.json.
+[10:41:34] [Server thread/INFO]: Using locale tr_TR
+[10:41:34] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:41:35] [Server thread/INFO]: [Essentials] Metrics disabled per bStats config.
+[10:41:35] [Server thread/WARN]: [Essentials] Detected supported permissions plugin GroupManager without Vault installed.
+[10:41:35] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[10:41:35] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[10:41:35] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.1
+[10:41:35] [Server thread/ERROR]: Cannot load plugins\ActionHealth\config.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'string', line 14, column 1:
+    Health Message: '&7&l{name}: {us ... 
+    ^
+expected <block end>, but found '-'
+ in 'string', line 121, column 1:
+    - Snow Golem = Kar Golemi
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:59) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:186) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.bukkit.plugin.java.JavaPlugin.reloadConfig(JavaPlugin.java:157) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.bukkit.plugin.java.JavaPlugin.getConfig(JavaPlugin.java:133) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at com.zeshanaslam.actionhealth.config.ConfigStore.<init>(ConfigStore.java:74) ~[?:?]
+	at com.zeshanaslam.actionhealth.Main.onEnable(Main.java:40) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugin(CraftServer.java:492) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.bukkit.craftbukkit.v1_16_R2.CraftServer.enablePlugins(CraftServer.java:406) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.loadWorld(MinecraftServer.java:435) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at net.minecraft.server.v1_16_R2.DedicatedServer.init(DedicatedServer.java:219) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.w(MinecraftServer.java:808) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at net.minecraft.server.v1_16_R2.MinecraftServer.lambda$0(MinecraftServer.java:164) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'string', line 14, column 1:
+    Health Message: '&7&l{name}: {us ... 
+    ^
+expected <block end>, but found '-'
+ in 'string', line 121, column 1:
+    - Snow Golem = Kar Golemi
+    ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:572) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:235) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:119) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:472) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:398) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[spigot-1.16.2.jar:git-Spigot-b5a13e6-b8ee6a8]
+	... 17 more
+[10:41:35] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.0.8
+[10:41:35] [Server thread/INFO]: [EssentialsSpawn] Metrics disabled per bStats config.
+[10:41:35] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.14.0
+[10:41:35] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[10:41:35] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
+[10:41:36] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[10:41:36] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[10:41:36] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[10:41:37] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.0.2
+[10:41:37] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[10:41:37] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[10:41:37] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[10:41:37] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[10:41:37] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[10:41:37] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.8 (Phoenix)
+[10:41:37] [Server thread/WARN]: [GroupManager] Inherited group 'moderator' not found for group Admin. Ignoring entry in file: plugins\GroupManager\worlds\world\groups.yml
+[10:41:37] [Server thread/INFO]: [GroupManager] World Found: world
+[10:41:37] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[10:41:37] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[10:41:37] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[10:41:37] [Server thread/INFO]: [GroupManager] version 2.8 (Phoenix) is enabled!
+[10:41:37] [Server thread/INFO]: [ServerlistMOTD] Enabling ServerlistMOTD vX-2020-09-05
+[10:41:37] [Server thread/INFO]: [ServerlistMOTD] Loaded userdata from IP_UUID.dat(0bytes) into memory in 1ms.
+[10:41:37] [Server thread/INFO]: [ServerlistMOTD] ------------------------
+[10:41:37] [Server thread/ERROR]: [ServerlistMOTD] CAN'T FIND THE DEFINED WORLD FROM YOUR CONFIG!
+[10:41:37] [Server thread/INFO]: [ServerlistMOTD] Searching for available world...
+[10:41:37] [Server thread/INFO]: [ServerlistMOTD] Found 'world‘ and saved it to config.
+[10:41:37] [Server thread/INFO]: [ServerlistMOTD] We're good now. ;-)
+[10:41:37] [Server thread/INFO]: [ServerlistMOTD] ------------------------
+[10:41:37] [Server thread/INFO]: [ServerlistMOTD] Hooking into ProtocolLib.
+[10:41:37] [Server thread/WARN]: [ServerlistMOTD] Couldn't find Vault. No %money%!
+[10:41:37] [Server thread/INFO]: [SkQuery] Enabling SkQuery v4.1.3
+[10:41:38] [Server thread/INFO]: [skQuery] Locating classes from SkQuery...
+[10:41:38] [Server thread/INFO]: [skQuery] Beginning to process a total of 139 from SkQuery
+[10:41:38] [Server thread/INFO]: [skQuery] Out of 139 classes, 137 classes were loaded from SkQuery
+[10:41:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:41:40] [Server thread/INFO]: Done (64.346s)! For help, type "help"
+[10:41:40] [Server thread/WARN]: [Skript] Loaded class me.ryanhamshire.GriefPrevention.Claim from GriefPrevention v16.14.0 which is not a depend, softdepend or loadbefore of this plugin.
+[10:41:40] [Server thread/INFO]: [Skript] Loading variables...
+[10:41:40] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[10:41:40] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[10:41:40] [Server thread/WARN]: [Skript] No scripts were found, maybe you should write some ;) (config.sk, line 188: databases:')
+[10:41:40] [Server thread/INFO]: [Skript] Finished loading.
+[10:41:40] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[10:41:42] [Craft Scheduler Thread - 5/INFO]: [GroupManager] No new version available
+[10:42:21] [User Authenticator #1/INFO]: UUID of player TheDoopTR is 2a801fb4-3419-3126-820c-c562db684593
+[10:42:23] [Server thread/INFO]: TheDoopTR[/127.0.0.1:59723] logged in with entity id 354 at ([world]16.19846917261119, 72.0, -208.42930986899944)
+[10:42:34] [Server thread/INFO]: TheDoopTR lost connection: Disconnected
+[10:42:34] [Server thread/INFO]: TheDoopTR left the game
+[10:44:12] [Server thread/INFO]: Stopping the server
+[10:44:12] [Server thread/INFO]: Stopping server
+[10:44:12] [Server thread/INFO]: [SkQuery] Disabling SkQuery v4.1.3
+[10:44:12] [Server thread/INFO]: [ServerlistMOTD] Disabling ServerlistMOTD vX-2020-09-05
+[10:44:12] [Server thread/INFO]: [ServerlistMOTD] Removed 0 duplicates in userdata in 0ms.
+[10:44:12] [Server thread/INFO]: [ServerlistMOTD] Saved userdata into IP_UUID.dat in 2ms.
+[10:44:12] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.6.0-SNAPSHOT-b478
+[10:44:12] [Server thread/INFO]: [GroupManager] Disabling GroupManager v2.8 (Phoenix)
+[10:44:12] [Server thread/WARN]: [GroupManager] Scheduled Data Saving is Disabled!
+[10:44:12] [Server thread/WARN]: [GroupManager] version 2.8 (Phoenix) is disabled!
+[10:44:12] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.0.2
+[10:44:12] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[10:44:12] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[10:44:12] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.14.0
+[10:44:12] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[10:44:12] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.18.0.8
+[10:44:12] [Server thread/INFO]: [ActionHealth] Disabling ActionHealth v3.5.1
+[10:44:12] [Server thread/INFO]: [Essentials] Disabling Essentials v2.18.0.8
+[10:44:12] [Server thread/INFO]: [WitherAC] Disabling WitherAC v0.21.2
+[10:44:12] [Server thread/INFO]: [Skript] Disabling Skript v2.4.1
+[10:44:12] [Server thread/INFO]: [AntiXRay] Disabling AntiXRay v1.9.0
+[10:44:12] [Server thread/INFO]: Saving players
+[10:44:12] [Server thread/INFO]: Saving worlds
+[10:44:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:44:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:44:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:44:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:44:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:44:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:44:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:44:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:44:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

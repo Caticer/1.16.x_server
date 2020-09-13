@@ -1,0 +1,108 @@
+# ----------------------------------------- [ Configuration File ]  ------------------------------------------ #
+# FAQ:
+#   - "Why IP Logging?": Needed for identifying players in the serverlist by their IP. Used in %player%, %money"
+#      IPs and UUIDs of players are stored locally inside the IP_UUID.dat.
+#   - "Connection turns red in serverlist with VersionText on.": Ever seen when your server is outdated in the
+#      serverlist? SMOTD simulates this and changes the text. This is just cosmetical!
+#   - "Plugin ServerlistMOTD created a profile with 'HoverText' as an UUID.": Your HoverText normally
+#      contains a list of players. SMOTD clears that and creates a fake player with your text as its name.
+#   - "What is Regulars and Newbies?" Players are categorized in those two groups in the list. Regular players
+#      are known by their ip while newbies are not.
+#   - "Player related placeholders from PlaceholderAPI are not working!": This is a known limitation. All this 
+#      information is not available in the serverlist because the player isn't online.
+# ----------------------------------------- [ Configuration File ]  ------------------------------------------ #
+
+ClassicMotd:
+  Regulars: '&2Tekrar hosgeldin, &e%player%&2! %line%&aHava %weather% %time%.'
+  Newbies: '&2Hoşgeldin oyuncu %line%&aHava %weather% %time%.'
+RandomMotd:
+  Enable: false
+  Regulars:
+  - '&bHey %player%! %line%&3Those Motds change totally random!'
+  - '&2You can add as many Motds as you want!'
+  - '&eAdd bullet points to add more Motds!'
+  - '&3The weather ist %weather% and it is %time%'
+  Newbies:
+  - '&bHey Newbie. %line%&3Those Motds change totally random!'
+  - '&2You can add as many Motds as you want!'
+  - '&eAdd bullet points to add more Motds!'
+  - '&3The weather ist %weather% and it is %time%.'
+BanMotd:
+  Enable: false
+  MessageTempBan: '&cYou are banned! Reason: &e%reason%%line%&cExpiration: &e%expdate%
+    at %exptime%'
+  MessageForeverBan: '&cYou are banned! Reason: &e%reason%%line%&cExpiration: &eNEVER'
+  Format:
+    Date: DD/MM/YYYY
+    Time: hh:mm:ss
+WhitelistMotd:
+  Enable: false
+  MessageWhitelisted: '&cWelcome back, &e%player%&c!%line%&c&oYou are on the whitelist.'
+  MessageNotWhitelisted: '&cYou are &lNOT &cwhitelisted.%line%&c&oPlease contact the
+    server owner.'
+RestrictedMode:
+  Enable: false
+  Motd:
+    AccessGranted: '&4Server is in restricted mode! You are able to join.'
+    AccessDenied: '&4Sunucuya baglanilamiyor'
+    KickMessage: 'java.net.ConnectException: Connection timed out: no further information:'
+  Slots:
+    VersionText: ''
+Slots:
+  FakeMaxPlayer:
+    Enable: false
+    Number: 200
+  FakeOnlinePlayer:
+    Enable: false
+    Number: 122
+    RandomNumber:
+      Enable: false
+      Max: 100
+      Min: 90
+  VersionText:
+    Enable: true
+    Message: '&aSimdi Katil!  &e%realonline%/%realslots%'
+  OutdatedClientText:
+    Enable: false
+    Message: Minecraft 1.16.2 kullanın &r&7%realonline%&8/&7%realslots%
+  UnknownSlots:
+    Enable: false
+  SlotsPlusOne:
+    Enable: false
+    MinSlots: 5
+    MaxSlots: 100
+    AddSlotsToOnline: 1
+  OnlineMultiplier:
+    Enable: false
+    MinSlots: 100
+    MaxSlots: 2500
+    AddSlotsWhenOnline>MinSlots: 1
+    MultiplyBy: 5
+  HoverText:
+    Enable: false
+    Messages:
+    - '&7>>>>>>> &6FServer &7<<<<<<<'
+    - ' &e-> This is a TEST!'
+    - ' &e-> Strumswell loves you. &c&l<3'
+    - '&eAdd lines by adding bullet points!'
+Variables:
+  TimeVariable:
+    NightText: gece
+    DayText: gunduz
+    World: world
+  WeatherVariable:
+    RainText: yagmurlu
+    SunText: acik
+    World: world
+  RandomNumberVariable:
+    Max: 100
+    Min: 90
+  RandomPlayerVariable:
+    UseTextWhenNobodyOnline:
+      Enable: false
+      Text: Player
+    UseDatabaseNameWhenNobodyOnline:
+      Enable: true
+AutoSaveConfig:
+  IntervalInMin: 30
+DoNOTtouchMe: 10.1

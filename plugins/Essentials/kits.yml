@@ -12,7 +12,7 @@
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
   baslangic:
-    delay: 10
+    delay: 21600
     items:
       - stonesword 1 lore:Baslangic_Esyasi
       - stoneshovel 1 lore:Baslangic_Esyasi
@@ -20,15 +20,16 @@ kits:
       - stoneaxe 1 lore:Baslangic_Esyasi
       - apple 5 lore:Baslangic_Esyasi
   vip:
-    delay: 1
+    delay: 86400
     items:
       - dpickaxe 1 efficiency:2 durability:3 fortune:1 lore:VIP_Esyasi
       - dshovel 1 digspeed:2 durability:3 lore:VIP_Esyasi
       - daxe 1 durability:3 lore:VIP_Esyasi
       - dsword 1 lore:VIP_Esyasi
+      - apple 15 lore:VIP_Esyas
   
   claim:
-    delay: 1
+    delay: 10
     items:
-      - 284 1
-      - 280 1
+      - gshowel 1 lore:Claim_kiti
+      - stick 1 lore:Claim_kiti
