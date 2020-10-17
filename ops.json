@@ -4,5 +4,11 @@
     "name": "TheDoopTR",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "8bb5838f-4350-30df-bf2a-f791c058da1a",
+    "name": "eco",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

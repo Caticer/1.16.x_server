@@ -80,10 +80,10 @@ kitclaim:
   NAME: '&eClaim Kiti'
   LORE:
     - 'Arazini korumak için Claim atman gerekir'
-    - 'Claim atmak için altın kürke ile'
+    - 'Claim atmak için altın kürek ile'
     - 'Claimlemek istediğin arazinin'
     - 'İki köşesine sağ tık yapman yeterli'
-    - 'Detaylı bilgi için Hızlı Başlangıç kitabına göz at'
+    - 'Ayrıntılı bilgi için Hızlı Başlangıç kitabına göz at'
   ACTIONS:
     - 'kit claim'
 

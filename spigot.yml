@@ -36,9 +36,9 @@ messages:
   whitelist: Beyaz listede değilsin!
   unknown-command: Bilinmeyen komut. Yardım için "/help" yaz.
   server-full: Sunucu Dolu!
-  outdated-client: Uyumsuz sürüm. {0} kullanın
-  outdated-server: Uyumsuz sürüm. {0} kullanın
-  restart: Sunucu yeniden başlatılıyor
+  outdated-client: Uyumsuz sürüm. {0} kullanın.
+  outdated-server: Uyumsuz sürüm. {0} kullanın.
+  restart: Sunucu yeniden başlatılıyor...
 commands:
   spam-exclusions:
   - /skill

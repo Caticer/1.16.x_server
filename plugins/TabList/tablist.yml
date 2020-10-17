@@ -51,7 +51,7 @@ header:
 
 footer:
 - "<13>&e&l Oyuncular:&6 %online-players%&7/&6%max-players%"
-- "&7<28> %anim:website%&7:&2 &nt.me/fserver&7 <28>\n<lines>"
+- "&7<28> %anim:website%&7:&2 &nAylinKraft.duckdns.org&7 <28>\n<lines>"
 
 # Per world tablist
 per-world:

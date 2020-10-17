@@ -3,39 +3,42 @@
 # Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
 Messages:
   RespectingClaims:
-    Text: Now respecting claims.
+    Text: Şu an arazi hakları (claims) gözetiliyor.
   IgnoringClaims:
-    Text: Now ignoring claims.
+    Text: Şu an arazi hakları (claims) görmezden geliniyor.
   SuccessfulAbandon:
-    Text: Claims abandoned.  You now have {0} available claim blocks.
+    Text: Araziler (claims) terk edildi.  Şu an {0} arazi hakkı (claim) bloklarına
+      sahipsiniz.
     Notes: '0: remaining blocks'
   RestoreNatureActivate:
     Text: Ready to restore some nature!  Right click to restore nature, and use /BasicClaims
       to stop.
   RestoreNatureAggressiveActivate:
-    Text: Aggressive mode activated.  Do NOT use this underneath anything you want
+    Text: Agresif kip etkinleştirildi.  Do NOT use this underneath anything you want
       to keep!  Right click to aggressively restore nature, and use /BasicClaims to
       stop.
   FillModeActive:
     Text: Fill mode activated with radius {0}.  Right click an area to fill.
     Notes: '0: fill radius'
   TransferClaimPermission:
-    Text: That command requires the administrative claims permission.
+    Text: Bu komut yönetimsel arazi hakları (administrative claims) yetkisini gerektirir.
   TransferClaimMissing:
-    Text: There's no claim here.  Stand in the administrative claim you want to transfer.
+    Text: Burada arazi hakkı (claim) yok. Aktarmak istediğiniz yönetimsel arazinin
+      (administrative claim) içinde durun.
   TransferClaimAdminOnly:
-    Text: Only administrative claims may be transferred to a player.
+    Text: Yalnızca yönetimsel arazi hakları (administrative claims) oyunculara aktarılmış
+      olabilir.
   PlayerNotFound2:
-    Text: No player by that name has logged in recently.
+    Text: Yakınlarda bu adla bir oyuncu giriş yapmadı.
   TransferTopLevel:
     Text: Only top level claims (not subdivisions) may be transferred.  Stand outside
       of the subdivision and try again.
   TransferSuccess:
-    Text: Claim transferred.
+    Text: Arazi (claim) devredildi.
   TrustListNoClaim:
-    Text: Stand inside the claim you're curious about.
+    Text: İlgili olduğunuz arazinin (claim) içinde durun.
   ClearPermsOwnerOnly:
-    Text: Only the claim owner can clear all permissions.
+    Text: Yalnızca arazi (claim) sahibi tüm yetkileri temizleyebilir.
   UntrustIndividualAllClaims:
     Text: Revoked {0}'s access to ALL your claims.  To set permissions for a single
       claim, stand inside it.
@@ -56,12 +59,12 @@ Messages:
   OnlySellBlocks:
     Text: Claim blocks may only be sold, not purchased.
   BlockPurchaseCost:
-    Text: Each claim block costs {0}.  Your balance is {1}.
+    Text: Her claim bloğu {0} tutar. Bakiyen {1}.
     Notes: '0: cost of one block; 1: player''s account balance'
   ClaimBlockLimit:
-    Text: You've reached your claim block limit.  You can't purchase more.
+    Text: Arazi (claim) bloğu limitine ulaştın. Daha fazla satın alamazsın.
   InsufficientFunds:
-    Text: You don't have enough money.  You need {0}, but you only have {1}.
+    Text: Yeterli paran yok. {0} kadar gerekiyor ancak yalnızca {1} kadar var.
     Notes: '0: total cost; 1: player''s account balance'
   MaxBonusReached:
     Text: Can't purchase {0} more claim blocks. The server has a limit of {1} bonus
@@ -71,20 +74,20 @@ Messages:
     Text: Withdrew {0} from your account.  You now have {1} available claim blocks.
     Notes: '0: total cost; 1: remaining blocks'
   OnlyPurchaseBlocks:
-    Text: Claim blocks may only be purchased, not sold.
+    Text: Arazi (claim) blokları may only be purchased, not sold.
   BlockSaleValue:
-    Text: Each claim block is worth {0}.  You have {1} available for sale.
+    Text: Her arazi (claim) bloğu değerinde {0}. Satmak için {1} tanesine sahipsiniz.
     Notes: '0: block value; 1: available blocks'
   NotEnoughBlocksForSale:
-    Text: You don't have that many claim blocks available for sale.
+    Text: Satmak için yeterince arazi (claim) bloğun yok.
   BlockSaleConfirmation:
     Text: Deposited {0} in your account.  You now have {1} available claim blocks.
     Notes: '0: amount deposited; 1: remaining blocks'
   AdminClaimsMode:
-    Text: Administrative claims mode active.  Any claims created will be free and
-      editable by other administrators.
+    Text: Yönetimsel araziler (claims) kipi etkin.  Any claims created will be free
+      and editable by other administrators.
   BasicClaimsMode:
-    Text: Returned to basic claim creation mode.
+    Text: Basit arazi (claim) oluşturma kipine dönüldü.
   SubdivisionMode:
     Text: Subdivision mode.  Use your shovel to create subdivisions in your existing
       claims.  Use /basicclaims to exit.
@@ -92,30 +95,30 @@ Messages:
     Text: 'Click for Subdivision Help: {0}'
     Notes: 0:video URL
   DeleteClaimMissing:
-    Text: There's no claim here.
+    Text: Burada arazi hakkı (claim) yok.
   DeletionSubdivisionWarning:
     Text: This claim includes subdivisions.  If you're sure you want to delete it,
       use /DeleteClaim again.
   DeleteSuccess:
     Text: Claim deleted.
   CantDeleteAdminClaim:
-    Text: You don't have permission to delete administrative claims.
+    Text: Yönetimsel arazileri (claims) silmek için yetkin yok.
   DeleteAllSuccess:
-    Text: Deleted all of {0}'s claims.
+    Text: '{0} arazi haklarının (claims) tümü silindi.'
     Notes: '0: owner''s name'
   NoDeletePermission:
-    Text: You don't have permission to delete claims.
+    Text: Arazileri silmek için yetkin yok.
   AllAdminDeleted:
     Text: Deleted all administrative claims.
   AdjustBlocksSuccess:
     Text: 'Adjusted {0}''s bonus claim blocks by {1}.  New total bonus blocks: {2}.'
     Notes: '0: player; 1: adjustment; 2: new total'
   NotTrappedHere:
-    Text: You can build here.  Save yourself.
+    Text: Burada yapı yapabilirsin. Kendini koru.
   RescuePending:
     Text: If you stay put for 10 seconds, you'll be teleported out.  Please wait.
   NonSiegeWorld:
-    Text: Siege is disabled here.
+    Text: Kuşatma burada devre dışı.
   AlreadySieging:
     Text: You're already involved in a siege.
   NotSiegableThere:
@@ -124,16 +127,16 @@ Messages:
   SiegeTooFarAway:
     Text: You're too far away to siege.
   NoSiegeYourself:
-    Text: You cannot siege yourself, don't be silly
+    Text: Kendini kuşatamazsın, aptal olma!
   NoSiegeDefenseless:
-    Text: That player is defenseless.  Go pick on somebody else.
+    Text: Bu oyuncu savunmasız. Git başka birini bul.
   AlreadyUnderSiegePlayer:
     Text: '{0} is already under siege.  Join the party!'
     Notes: '0: defending player'
   AlreadyUnderSiegeArea:
-    Text: That area is already under siege.  Join the party!
+    Text: Bu alan çoktan kuşatma altında. Partiye katıl!
   NoSiegeAdminClaim:
-    Text: Siege is disabled in this area.
+    Text: Kuşatma bu alanda devre dışı.
   SiegeOnCooldown:
     Text: You're still on siege cooldown for this defender or claim.  Find another
       victim.
@@ -182,25 +185,24 @@ Messages:
   LocationAllClaims:
     Text: in all your claims
   PvPImmunityStart:
-    Text: You're protected from attack by other players as long as your inventory
-      is empty.
+    Text: Envanterin boş olduğu sürece diğer oyuncuların saldırılarından korunursun.
   SiegeNoDrop:
     Text: You can't give away items while involved in a siege.
   DonateItemsInstruction:
     Text: To give away the item(s) in your hand, left-click the chest again.
   ChestFull:
-    Text: This chest is full.
+    Text: Bu sandık dolu.
   DonationSuccess:
-    Text: Item(s) transferred to chest!
+    Text: Eşyalar sandığa aktarıldı!
   PlayerTooCloseForFire2:
     Text: You can't start a fire this close to another player.
   TooDeepToClaim:
     Text: This chest can't be protected because it's too deep underground.  Consider
       moving it.
   ChestClaimConfirmation:
-    Text: This chest is protected.
+    Text: Bu sandık korunuyor.
   AutomaticClaimNotification:
-    Text: This chest and nearby blocks are protected from breakage and theft.
+    Text: Bu sandık ve yakınındaki bloklar kırılmaktan ve soyulmaktan korunmaktadır.
   UnprotectedChestWarning:
     Text: This chest is NOT protected.  Consider using a golden shovel to expand an
       existing claim or to create a new one.
@@ -294,53 +296,55 @@ Messages:
   ClaimsDisabledWorld:
     Text: Land claims are disabled in this world.
   ClaimStart:
-    Text: Claim corner set!  Use the shovel again at the opposite corner to claim
-      a rectangle of land.  To cancel, put your shovel away.
+    Text: Arazi (claim) köşesi ayarlandı! Dikdörtgen alanı arazi (claim) almak için
+      karşı köşede küreği tekrar kullan. İptal etmek için küreğini bırak.
   NewClaimTooNarrow:
-    Text: This claim would be too small.  Any claim must be at least {0} blocks wide.
+    Text: Bu arazi (claim) çok küçük kaçtı. Bir arazi (claim) en az {0} blok genişliğinde
+      olmalı.
     Notes: '0: minimum claim width'
   CreateClaimInsufficientBlocks:
-    Text: You don't have enough blocks to claim that entire area.  You need {0} more
-      blocks.
+    Text: Bu bütün alanı arazi (claim) almak için yeterli bloğun yok. {0} bloğa daha
+      gereksinimin var.
     Notes: '0: additional blocks needed'
   AbandonClaimAdvertisement:
-    Text: To delete another claim and free up some blocks, use /AbandonClaim.
+    Text: Başka bir araziyi (claim) silmek ve biraz blok boşaltmak için /AbandonClaim
+      kullan.
   CreateClaimFailOverlapShort:
-    Text: Your selected area overlaps an existing claim.
+    Text: Var olan bir araziyle (claim) örtüşen bir alan seçtin.
   CreateClaimSuccess:
-    Text: Claim created!  Use /trust to share it with friends.
+    Text: Arazi (claim) oluşturuldu! Bunu arkadaşlarınla paylaşmak için /trust kullan.
   SiegeWinDoorsOpen:
-    Text: Congratulations!  Buttons and levers are temporarily unlocked.
+    Text: Kebriklen! Düğmeler ve şalterlerin kilidi geçici olarak açıldı.
   RescueAbortedMoved:
-    Text: You moved!  Rescue cancelled.
+    Text: Hareket ettin! Kurtarma iptal edildi.
   SiegeDoorsLockedEjection:
     Text: Looting time is up!  Ejected from the claim.
   NoModifyDuringSiege:
-    Text: Claims can't be modified while under siege.
+    Text: Araziler (claims) kuşatma altındayken değişiklik yapılamaz.
   OnlyOwnersModifyClaims:
-    Text: Only {0} can modify this claim.
+    Text: Bu arazide (claim) yalnızca {0} değişiklik yapabilir.
     Notes: '0: owner name'
   NoBuildUnderSiege:
-    Text: This claim is under siege by {0}.  No one can build here.
+    Text: Bu arazi (claim) {0} tarafından kuşatma altında. Kimse burada yapı yapamaz.
     Notes: '0: attacker name'
   NoBuildPvP:
-    Text: You can't build in claims during PvP combat.
+    Text: PvP çarpışması sırasında araziler (claims) içinde yapı yapamazsın.
   NoBuildPermission:
-    Text: You don't have {0}'s permission to build here.
+    Text: Burada yapı yapman için {0} izin vermemiş.
     Notes: '0: owner name'
   NonSiegeMaterial:
-    Text: That material is too tough to break.
+    Text: Bu malzeme kırılmaya çok dayanıklı.
   NoOwnerBuildUnderSiege:
-    Text: You can't make changes while under siege.
+    Text: Kuşatma altındayken değişiklikler yapamazsın.
   NoAccessPermission:
-    Text: You don't have {0}'s permission to use that.
+    Text: Bunu kullanman için {0} izin vermemiş.
     Notes: '0: owner name.  access permission controls buttons, levers, and beds'
   NoContainersSiege:
-    Text: This claim is under siege by {0}.  No one can access containers here right
-      now.
+    Text: Bu arazi (claim) {0} tarafından kuşatma altında. Şu an kimse buradaki içericilere
+      erişemez.
     Notes: '0: attacker name'
   NoContainersPermission:
-    Text: You don't have {0}'s permission to use that.
+    Text: Bunu kullanman için {0} izin vermemiş.
     Notes: '0: owner''s name.  containers also include crafting blocks'
   OwnerNameForAdminClaims:
     Text: an administrator
@@ -365,8 +369,9 @@ Messages:
     Text: Please specify a player name, or a permission in [brackets].
   HowToClaimRegex:
     Text: (^|.*\W)how\W.*\W(claim|protect|lock)(\W.*|$)
-    Notes: This is a Java Regular Expression.  Look it up before editing!  It's used
-      to tell players about the demo video when they ask how to claim land.
+    Notes: Bu bir Java Düzenli İfadesi (Java Regular Expression, regex). Look it up
+      before editing!  It's used to tell players about the demo video when they ask
+      how to claim land.
   NoBuildOutsideClaims:
     Text: You can't build here unless you claim some land first.
   PlayerOfflineTime:
@@ -390,20 +395,19 @@ Messages:
   NoTNTDamageAboveSeaLevel:
     Text: 'Warning: TNT will not destroy blocks above sea level.'
   NoTNTDamageClaims:
-    Text: 'Warning: TNT will not destroy claimed blocks.'
+    Text: 'Uyarı: TNT arazi içerisindeki (claimed) bloklara zarar vermeyecek.'
   IgnoreClaimsAdvertisement:
-    Text: To override, use /IgnoreClaims.
+    Text: Geçeriz kılmak için /IgnoreClaims kullan.
   NoPermissionForCommand:
-    Text: You don't have permission to do that.
+    Text: Bunu yapmak için yetkin yok.
   ClaimsListNoPermission:
-    Text: You don't have permission to get information about another player's land
-      claims.
+    Text: Başka bir oyuncunun arazi hakkı ile ilgili bilgi almak için yetkin yok.
   ExplosivesDisabled:
-    Text: This claim is now protected from explosions.  Use /ClaimExplosions again
-      to disable.
+    Text: Bu arazi şimdi patlamalardan korunuyor. Korumayı devre dışı bırakmak için
+      tekrar /ClaimExplosions kullan.
   ExplosivesEnabled:
-    Text: This claim is now vulnerable to explosions.  Use /ClaimExplosions again
-      to re-enable protections.
+    Text: Bu arazi şimdi patlamalara karşı savunmasız. Korumayı yeniden etkinleştirmek
+      için yeniden /ClaimExplosions kullan.
   ClaimExplosivesAdvertisement:
     Text: To allow explosives to destroy blocks in this land claim, use /ClaimExplosions.
   PlayerInPvPSafeZone:
@@ -460,8 +464,8 @@ Messages:
     Text: Found {0} land claims.
     Notes: '0: Number of claims found.'
   NoChatUntilMove:
-    Text: Sorry, but you have to move a little more before you can chat.  We get lots
-      of spam bots here.  :)
+    Text: Üzgünüm, konuşmadan önce biraz yürümelisin. Burada çok sayıda spam bot ile
+      karşılaşıyoruz :)
   SiegeImmune:
     Text: That player is immune to /siege.
   SetClaimBlocksSuccess:
@@ -481,19 +485,19 @@ Messages:
   TrustListHeader:
     Text: 'Explicit permissions here:'
   Manage:
-    Text: Manage
+    Text: Yönet
   Build:
-    Text: Build
+    Text: Yapı yap
   Containers:
-    Text: Containers
+    Text: İçericiler
   Access:
-    Text: Access
+    Text: Erişim
   HasSubclaimRestriction:
     Text: This subclaim does not inherit permissions from the parent
   StartBlockMath:
     Text: '{0} blocks from play + {1} bonus = {2} total.'
   ClaimsListHeader:
-    Text: 'Claims:'
+    Text: 'Arazi hakları:'
   ContinueBlockMath:
     Text: ' (-{0} blocks)'
   EndBlockMath:
@@ -537,7 +541,7 @@ Messages:
       was created for you.  You can use /ClaimsList to monitor your available claim
       block total.
   IsIgnoringYou:
-    Text: That player is ignoring you.
+    Text: Oyuncu seni görmezden geliyor.
   MustHoldModificationToolForThat:
     Text: You must be holding a golden shovel to do that.
   StandInClaimToResize:
@@ -561,12 +565,12 @@ Messages:
   ConsoleOnlyCommand:
     Text: That command may only be executed from the server console.
   WorldNotFound:
-    Text: World not found.
+    Text: Dünya bulunamadı.
   AdjustBlocksAllSuccess:
     Text: Adjusted all online players' bonus claim blocks by {0}.
     Notes: '0: adjustment amount'
   TooMuchIpOverlap:
-    Text: Sorry, there are too many players logged in with your IP address.
+    Text: Üzgünüm, senin IP adresinle aşırı fazla sayıda oyuncu giriş yapmış.
   StandInSubclaim:
     Text: You need to be standing in a subclaim to restrict it
   SubclaimRestricted:

@@ -35,6 +35,9 @@ groups:
     - skinsrestorer.command.set.url
     - skinsrestorer.command.clear
     - skinsrestorer.command.update
+    - chestcommands.open.kitler.yml
+    - chestcommands.open.anamenu.yml
+    - chestcommands.open.warplar.yml
 
     inheritance:
     - g:essentials_default # For default essentials perms
@@ -73,6 +76,10 @@ groups:
     - skinsrestorer.command.set.url
     - skinsrestorer.command.clear
     - skinsrestorer.command.update
+    - chestcommands.open.kitler.yml
+    - chestcommands.open.anamenu.yml
+    - chestcommands.open.warplar.yml
+
 
     inheritance:
     - g:essentials_default # For default essentials perms

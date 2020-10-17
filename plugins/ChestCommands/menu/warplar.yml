@@ -51,7 +51,7 @@ orman:
   MATERIAL: OAK_SAPLING
   POSITION-X: 1
   POSITION-Y: 1
-  NAME: '&eOrnama ışınlar'
+  NAME: '&eOrmana ışınlar'
   LORE:
     - 'Işık hızında ormana ışınlanmak için burayı tıkla'
   ACTIONS:

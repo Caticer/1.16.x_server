@@ -29,7 +29,7 @@ kits:
       - apple 15 lore:VIP_Esyas
   
   claim:
-    delay: 10
+    delay: 100
     items:
-      - gshowel 1 lore:Claim_kiti
+      - gshovel 1 lore:Claim_kiti
       - stick 1 lore:Claim_kiti

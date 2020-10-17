@@ -2,13 +2,9 @@
 GriefPrevention:
   SeaLevelOverrides:
     world: -1
-    world_nether: -1
-    world_the_end: -1
   Claims:
     Mode:
-      world_nether: Disabled
       world: Survival
-      world_the_end: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -70,8 +66,6 @@ GriefPrevention:
   PvP:
     RulesEnabledInWorld:
       world: false
-      world_nether: true
-      world_the_end: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15

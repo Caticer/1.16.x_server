@@ -13,7 +13,7 @@
 
 
 settings:
-  allow-end: true
+  allow-end: false
   warn-on-overload: true
   permissions-file: permissions.yml
   update-folder: update
@@ -21,7 +21,8 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: Sunucu kapandı. Çok yakında yeniden çalışacak, beklemede kalın
+    :)
   minimum-api: none
 spawn-limits:
   monsters: 70
