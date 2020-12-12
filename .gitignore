@@ -1,4 +1,9 @@
-
-logs/2020-09-13-3.log.gz
-logs/latest.log
-*.log
+word/
+logs/
+plugins/AntiXRayData/PlayerData/
+plugins/ChestCommands/.upgrades-done/
+plugins/ChestCommands/old_files/
+plugins/Essentials/userdata/
+plugins/GriefPreventionData/ClaimData/
+plugins/GriefPreventionData/PlayerData/
+plugins/SkinsRestorer/Players/
