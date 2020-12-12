@@ -1,10 +1,7 @@
 no-open-permission: '&cBu menüyü kullanmak için &e{permission} &cyetkin yok.'
 default-no-icon-permission: '&cBu simge için yetkin yok.'
-open-menu: '"{menu}" &amenüsü açılıyor.'
 no-exp: '&cBunun için {levels} XP seviyesine gereksinimin var.'
 menu-not-found: '&cMenü bulunamadı! Yetkiliyi bu konuda bilgilendirin.'
 no-money: '&cBunun için {money}$ gereksinimin var.'
-no-required-item: '&cBunun için &e{amount}x {material} &c(data value: {datavalue})
-  sahip olmalısın.'
-open-menu-others: '"{menu}" &amenüsü, {player} için açılıyor.'
+no-required-item: '&cBunun için &e{amount}x {material} &c(data value: {durability}) sahip olmalısın.'
 any: any
