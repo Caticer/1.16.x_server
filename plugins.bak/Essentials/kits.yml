@@ -1,0 +1,35 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {USERNAME} to specify the player receiving the kit.
+# {PLAYER} will show the player's displayname instead of username.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  baslangic:
+    delay: 21600
+    items:
+      - stonesword 1 lore:Baslangic_Esyasi
+      - stoneshovel 1 lore:Baslangic_Esyasi
+      - stonepickaxe 1 lore:Baslangic_Esyasi
+      - stoneaxe 1 lore:Baslangic_Esyasi
+      - apple 5 lore:Baslangic_Esyasi
+  vip:
+    delay: 86400
+    items:
+      - dpickaxe 1 efficiency:2 durability:3 fortune:1 lore:VIP_Esyasi
+      - dshovel 1 digspeed:2 durability:3 lore:VIP_Esyasi
+      - daxe 1 durability:3 lore:VIP_Esyasi
+      - dsword 1 lore:VIP_Esyasi
+      - apple 15 lore:VIP_Esyas
+  
+  claim:
+    delay: 100
+    items:
+      - gshovel 1 lore:Claim_kiti
+      - stick 1 lore:Claim_kiti

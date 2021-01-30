@@ -5,7 +5,7 @@
 ############################################################
 
 # This is the config file for EssentialsX.
-# This config was generated for version 2.18.0.8.
+# This config was generated for version 2.18.2.0.
 
 # If you want to use special characters in this document, such as accented letters, you MUST save the file as UTF-8, not ANSI.
 # If you receive an error when Essentials loads, ensure that:
@@ -24,10 +24,10 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+ you can use hex color codes here as well. (For example, #613e1d is brown).
-ops-name-color: ''
+ops-name-color: '4'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
-nickname-prefix: ''
+nickname-prefix: '~'
 
 # The maximum length allowed in nicknames. The nickname prefix is included in this.
 max-nick-length: 15
@@ -35,18 +35,8 @@ max-nick-length: 15
 # A list of phrases that cannot be used in nicknames. You can include regular expressions here.
 # Users with essentials.nick.blacklist.bypass will be able to bypass this filter.
 nick-blacklist:
-- Notch
-- '^Dinnerbone'
-- FDoop
-- Caticer
-- TheDoop
-- TheDoopTR
-- Admin
-- Kurucu
-- Rehber
-- Yardımcı
-- Builder
-- Youtuber
+#- Notch
+#- '^Dinnerbone'
 
 # When this option is enabled, nickname length checking will exclude color codes in player names.
 # ie: "&6Notch" has 7 characters (2 are part of a color code), a length of 5 is used when this option is set to true
@@ -61,7 +51,7 @@ change-displayname: true
 
 # When this option is enabled, the (tab) player list will be updated with the displayname.
 # The value of change-displayname (above) has to be true.
-change-playerlist: true
+#change-playerlist: true
 
 # When EssentialsChat.jar isn't used, force essentials to add the prefix and suffix from permission plugins to displayname.
 # This setting is ignored if EssentialsChat.jar is used, and defaults to 'true'.
@@ -98,7 +88,7 @@ force-safe-teleport-location: false
 teleport-passenger-dismount: true
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 25
+teleport-cooldown: 0
 
 # The delay, in seconds, before a user actually teleports. If the user moves or gets attacked in this timeframe, the teleport is cancelled.
 teleport-delay: 0
@@ -111,7 +101,7 @@ teleport-invulnerability: 4
 teleport-to-center: true
 
 # The delay, in seconds, required between /heal or /feed attempts.
-heal-cooldown: 8000
+heal-cooldown: 60
 
 # Do you want to remove potion effects when healing a player?
 remove-effects-on-heal: true
@@ -124,7 +114,6 @@ near-radius: 200
 # What to prevent from /item and /give.
 # e.g item-spawn-blacklist: 10,11,46
 item-spawn-blacklist:
-
 
 # Set this to true if you want permission based item spawn rules.
 # Note: The blacklist above will be ignored then.
@@ -147,7 +136,7 @@ permission-based-item-spawn: false
 spawnmob-limit: 10
 
 # Shall we notify users when using /lightning?
-warn-on-smite: false
+warn-on-smite: true
 
 # Shall we drop items instead of adding to inventory if the target inventory is full?
 drop-items-if-full: false
@@ -232,10 +221,6 @@ world-change-speed-reset: true
 mute-commands:
   - f
   - kittycannon
-  - .net
-  - .com
-  - .org
-
  # - '*'
 
 # If you do not wish to use a permission system, you can define a list of 'player perms' below.
@@ -349,12 +334,12 @@ pastebin-createkit: false
 # Color is not an actual sign, it's for enabling using color codes on signs, when the correct permissions are given.
 
 enabledSigns:
-  - color
+  #- color
   #- balance
-  - buy
-  - sell
-  - trade
-  - free
+  #- buy
+  #- sell
+  #- trade
+  #- free
   #- disposal
   #- warp
   #- kit
@@ -387,7 +372,10 @@ allow-old-id-signs: false
 unprotected-sign-names:
   #- kit
 
-# Backup runs a batch/bash command while saving is disabled.
+# Backup runs a custom batch/bash command at a specified interval.
+# The server will save the world before executing the backup command, and disable
+# saving during the backup to prevent world corruption or other conflicts.
+# Backups can also be triggered manually with /backup.
 backup:
   # Interval in minutes.
   interval: 30
@@ -395,6 +383,7 @@ backup:
   always-run: false
   # Unless you add a valid backup command or script here, this feature will be useless.
   # Use 'save-all' to simply force regular world saving without backup.
+  # The example command below utilizes rdiff-backup: https://rdiff-backup.net/
   #command: 'rdiff-backup World1 backups/World1'
 
 # Set this true to enable permission per warp.
@@ -573,6 +562,11 @@ last-message-reply-recipient: true
 # reply-recipient to update when receiving a message.
 # Default is 180 (3 minutes)
 last-message-reply-recipient-timeout: 180
+
+# Changes the default /reply functionality.
+# If true, /reply will not check if the person you're replying to has vanished.
+# If false, players will not be able to /reply to players who they can no longer see due to vanish.
+last-message-reply-vanished: false
 
 # Toggles whether or not left clicking mobs with a milk bucket turns them into a baby.
 milk-bucket-easter-egg: true
@@ -800,6 +794,7 @@ chat:
   # Chat formatting can be done in two ways, you can either define a standard format for all chat.
   # Or you can give a group specific chat format, to give some extra variation.
   # For more information of chat formatting, check out the wiki: http://wiki.ess3.net/wiki/Chat_Formatting
+  # Note: Using the {PREFIX} and {SUFFIX} placeholders along with {DISPLAYNAME} may cause double prefixes/suffixes to be shown in chat unless add-prefix-suffix is uncommented and set to false.
 
   format: '<{DISPLAYNAME}> {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
@@ -1003,7 +998,7 @@ protect:
     # Which blocks should people be prevented from breaking?
     break:
 
-    # Which blocks should not be pushed by pistons?
+    # Which blocks should not be moved by pistons?
     piston:
 
     # Which blocks should not be dispensed by dispensers
